@@ -81,6 +81,10 @@ void ATank::Tick(float DeltaTime) {
 
 }
 
+void ATank::HandleInstantiate() {
+	Super::HandleInstanstiate()
+}
+
 void ATank::HandleDestruction() {
 	//Todo: Add Visual/Sound Effects
 
